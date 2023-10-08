@@ -174,7 +174,7 @@ footer {
 
 .thin-btn-A {
   background-color: #42A1BB;
-  padding: 0 2rem 0;
+  padding: 0.7rem 2.5rem; 
   color: white;
   border-radius: 9999px;
   font-size: 1.25rem;
@@ -186,9 +186,6 @@ footer {
   background-color: #EE877E;
 }
 
-.thin-btn-C {
-  font-size: 1rem;
-}
 
 
 

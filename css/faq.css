@@ -1,0 +1,100 @@
+@charset "UTF-8";
+
+.faq01 {
+  background-image: linear-gradient(to right, #0F86A7, #0F86A7 15px, transparent 2px, transparent 8px);
+  /* 幅3の線を作る */
+  background-size: 30px 3px;
+  /* グラデーションの幅・高さを指定 */
+  background-position: left bottom;
+  /* 背景の開始位置を指定 */
+  background-repeat: repeat-x;
+  /* 横向きにのみ繰り返す */
+}
+
+.faq-wrap {
+  padding: 200px 0;
+}
+
+.faq-wrap__ttl {
+  text-align: center;
+}
+
+
+.faq-wrap__con__list__item {
+  border: solid 1px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+
+.faq-wrap__con__list__item__tog{
+  display: none;
+}
+
+.faq-wrap__con__list__item__tog:checked
++.faq-wrap__con__list__item__ttl
++.faq-wrap__con__list__item__tx {
+  max-height: 500px;
+  transition: all 1.5s;
+  visibility: visible;
+}
+
+.faq-wrap__con__list__item__tx {
+  max-height: 0;
+  overflow: hidden;
+}
+
+
+/* 質問 */
+.faq-wrap__con__list__item__ttl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 95%;
+}
+
+.faq-wrap__con__list__item__ttl p {
+  font-size: 1.5rem;
+  
+}
+
+.faq-wrap__con__list__item__ttl p::before {
+  content: "Q";
+  width: 62px;
+  height: 62px;
+  background-color: #EE877E;
+  font-size: 2rem;
+  color: #fff;
+  border-radius: 9999px;
+  line-height: 62px;
+  text-align: center;
+  display: inline-block;
+  margin: 20px 30px;
+}
+
+.faq-wrap__con__list__item__tog:checked+.faq-wrap__con__list__item__ttl i {
+  transform: rotate(90deg);
+}
+
+.faq-wrap__con__list__item__tog:checked+.faq-wrap__con__list__item__ttl i {
+  transition: all 0.5s;
+}
+
+
+
+.faq-wrap__con__list__item__tx  p{
+  font-size: 1.25rem;
+  margin-left: 122px;
+  margin-bottom: 35px;
+}
+
+
+
+
+
+
+
+
+
+
+

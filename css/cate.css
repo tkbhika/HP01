@@ -1,0 +1,93 @@
+@charset "UTF-8";
+
+/* 診療メニュー */
+
+.menu-wrap {
+  padding: 200px 0;
+}
+
+.menu-wrap__ttl {
+  text-align: center;
+}
+
+.menu-wrap__tx {
+  width: 95%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 100px 0;
+}
+
+.menu-wrap__tx p{
+  font-size: 1.25rem;
+}
+
+.menu-wrap__item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 3%;
+}
+
+
+.menu-wrap__item__cir {
+  width: 205px;
+  height: 205px;
+  background-color: #EE877E;
+  border-radius: 9999px;
+  box-shadow: 4px 4px 4px rgb(54 128 149 / 40%);
+}
+
+.menu-wrap__item__cir p{
+  color: #fff;
+  text-align: center;
+  line-height: 204px;
+  font-size: 1.5rem;
+}
+
+.menu-wrap__box {
+  width: 100%;
+  height: 315px;
+  background-color: #D9EEEF;
+  display: flex;
+  margin: 250px 0 0 0;
+  box-shadow: 4px 4px 4px rgb(54 128 149 / 40%);
+}
+
+.menu-wrap__box:not(:last-child) {
+  margin-bottom: -160px;
+}
+
+.menu-wrap__box__cir {
+  position: relative;
+  left: -20px;
+  top: -20px;
+}
+
+.menu-wrap__box__disease {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.menu-wrap__box__disease__item {
+  width: 215px;
+  height: 50px;
+  background-color: #42A1BB;
+  text-align: center;
+  line-height: 50px;
+  color: #fff;
+  margin-bottom: 15px;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px rgb(141 160 165 / 40%);
+}
+
+.menu-wrap__box__disease {
+  text-align: right;
+}
+
+.menu-wrap__box__disease__tx {
+  width: 50%;
+  display: flex;
+  align-items: center;
+}

@@ -1,0 +1,252 @@
+@charset "UTF-8";
+
+.first-wrap {
+  padding: 200px 0;
+}
+
+.first-wrap__ttl {
+  text-align: center;
+}
+
+.first-wrap__tx {
+  margin-bottom: 8%;
+  text-align: center;
+  font-size: 1.25rem;
+}
+
+.first-wrap__box {
+  width:100%;
+  background-color: #D9EEEF;
+  box-shadow: 4px 4px 4px rgb(54 128 149 / 40%);
+  padding: 100px 0;
+  height:380px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.first-wrap__box__item {
+  display: flex;
+  width: 85%;
+  margin: 0 auto;
+}
+
+
+.first-wrap__box__item__ttl {
+  background-color: #EE877E;
+  width: 240px;
+  height: 60px;
+  margin-right: 5rem;
+  border-radius: 15px;
+  box-shadow: 1px 2px 2px rgb(141 160 165 / 40%);
+}
+
+.first-wrap__box__item__ttl p {
+  font-size: 1.5rem;
+  color: #fff;
+  text-align: center;
+  line-height: 60px;
+}
+
+.first-wrap__box__item ul {
+  padding-left: 1.25rem;
+}
+
+
+/*  来院案内 */
+.guidance02 {
+  background-color: #D9EEEF;
+}
+
+.guide02-wrap {
+  padding: 200px 0;
+}
+
+.guide02-wrap__ttl {
+  text-align: center;
+}
+
+.guide02-wrap__con {
+
+}
+
+.guide02-wrap__con-top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15%;
+}
+
+.guide02-wrap__con-bottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.guide02-wrap__con-top__right,
+.guide02-wrap__con-bottom__right {
+  width: 40%;
+}
+
+.guide__ttl {
+  background-color: #0F86A7;
+  display: inline-block;
+  padding: 3px 2rem;
+  color: #fff;
+  font-size: 1.5rem;
+  border-radius: 10px;
+  margin-bottom: 2rem;
+  box-shadow: 1px 2px 2px rgb(141 160 165 / 40%);
+}
+
+.guide02-wrap__con-top__left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.guide02-wrap__con-top__time {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.guide02-wrap__con-top__time__table table {
+  width: 600px;
+}
+
+.guide02-wrap__con-top__time__table th,td {
+  padding: 0.5rem;
+  border: solid 1px;
+  text-align: center;
+}
+
+.guide02-wrap__con-top__time p {
+  padding-top: 1rem;
+}
+
+.guide02-wrap__con-top__tel {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  align-items: center;
+  background-color: #EE877E;
+  color: #fff;
+  height: 80px;
+  border-radius: 20px;
+  box-shadow: 4px 4px 4px rgb(54 128 149 / 40%);
+  width: 500px;
+}
+
+.guide02-wrap__con-top__tel i {
+  font-size: 3.5rem;
+}
+
+.guide02-wrap__con-top__tel span {
+  font-size: 2.25rem;
+}
+
+.guide02-wrap__con-top__left a {
+  text-decoration: none;
+}
+
+.guide02-wrap__con-top__left a:hover {
+  opacity: 0.8;
+}
+
+.guide02-wrap__con-top__right{ 
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.guide02-wrap__con-top__right__box {
+  background-color: #fff;
+  height: 300px;
+  width: 480px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 1px 2px 2px rgb(141 160 165 / 40%);
+}
+
+.guide02-wrap__con-top__right__box__input {
+  width: 60%;
+  height: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.guide02-wrap__con-top__right__box__input label {
+  font-size: 1.5rem;
+}
+
+.guide02-wrap__con-top__right__box__input input {
+  width: 60%;
+  height: 2rem;
+  vertical-align: super;
+  border: 2px solid #D9EEEF;
+  font-size: 1.25rem;
+}
+
+
+.guide__btn {
+  font-size: 1.25rem;
+  background-color: #EE877E;
+  display: block;
+  width: 25%;
+  margin: 0 auto 2rem auto;
+}
+
+
+.guide02-wrap__con-bottom__left iframe {
+  width: 600px;
+  height: 400px;
+}
+
+.guide02-wrap__con-bottom__right {
+  text-align: center;
+}
+
+.guide02-wrap__con-bottom__right__line01 {
+  text-align: center;
+}
+
+.guide02-wrap__con-bottom__right__line01 i {
+  padding-right: 1rem;
+  font-size: 1.5rem;
+}
+
+
+.guide02-wrap__con-bottom__right__line02 {
+  display: flex;
+  width:80%;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+
+}
+
+.guide02-wrap__con-bottom__right__line01 i {
+  display: inline;
+}
+
+.guide02-wrap__con-bottom__right__line02 span {
+  background-color: #fff;
+  display: block;
+  width: 70px;
+  text-align: center;
+  border-radius: 6px;
+  margin-right: 3rem;
+}
+
+
+
+hr {
+  height: 2px;
+  background-color: #0F86A7;
+  width: 100%;
+  border: none;
+}

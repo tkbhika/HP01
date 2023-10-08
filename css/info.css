@@ -1,0 +1,68 @@
+@charset "UTF-8";
+
+.info {
+  padding: 200px 0;
+}
+
+.info-wrap__ttl {
+  text-align: center;
+}
+
+
+
+.info-wrap__con__list__item {
+  border: solid 1px;
+  list-style: none;
+  margin-bottom: 30px;
+}
+
+
+.info-wrap__con__list__item__tog {
+  display: none;
+}
+
+.info-wrap__con__list__item__tog:checked+.info-wrap__con__list__item__ttl+.info-wrap__con__list__item__tx {
+  max-height: 500px;
+  transition: all 1.5s;
+  visibility: visible;
+}
+
+.info-wrap__con__list__item__tx {
+  max-height: 0;
+  visibility: hidden;
+}
+
+
+/* 質問 */
+.info-wrap__con__list__item__ttl {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: 20px auto;
+}
+
+.info-wrap__con__list__item__ttl p {
+  font-size: 1.5rem;
+}
+
+.info-wrap__con__list__item__ttl span {
+  font-size: 1rem;
+  padding-right:5rem;
+}
+
+
+
+.info-wrap__con__list__item__tog:checked
++.info-wrap__con__list__item__ttl i {
+  transform: rotate(90deg);
+  transition: all 0.5s;
+}
+
+
+
+.info-wrap__con__list__item__tx p {
+  font-size: 1.25rem;
+  margin-left: 260px;
+  margin-bottom: 20px;
+}

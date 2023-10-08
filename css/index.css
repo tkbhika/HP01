@@ -81,15 +81,14 @@
 
 .top-wrap-bottom__box__con__tx__btn:hover {
   opacity: 0.8;
-
+  transition: 0.3s;
 }
 
 
 /* ヴィジョン */
 .vision-wrap {
-
   position: relative;
-  padding: 10% 0;
+  padding: 7% 0;
 }
 
 .vision-wrap__left {
@@ -134,7 +133,7 @@
 /* department */
 .department {
   background-color: #D9EEEF;
-  padding: 20% 0 15%;
+  padding: 16% 0 10%;
 }
 
 .depa-wrap__symp-top__cir {
@@ -168,7 +167,7 @@
   width: 950px;
   background-color: #5EBBD4;
   margin: 0 auto;
-  padding: 10% 5%;
+  padding: 7% 5%;
   border-radius: 25px;
   position: relative;
   z-index: 1;
@@ -247,7 +246,7 @@
 
 
 .depa-wrap__symp-bord__arrow:hover {
-  transition: 0.2s;
+  transition: 0.3s;
   opacity: 0.8;
 }
 
@@ -259,7 +258,7 @@
 
 /* 来院案内 */
 .guide-wrap {
-  margin: 10% auto;
+  margin: 7% auto;
 }
 
 .guide-wrap__ttl {
@@ -304,6 +303,7 @@
 
 .guide-wrap__con__button a:hover {
   opacity: 0.8;
+  transition: 0.3s;
 }
 
 .guide-wrap__con__button1 {
@@ -357,5 +357,3 @@
   height: 380px;
 }
 
-
-/*  */

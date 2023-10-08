@@ -3,7 +3,7 @@
 /* 診療メニュー */
 
 .menu-wrap {
-  padding: 200px 0;
+  padding: 7% 0;
 }
 
 .menu-wrap__ttl {
@@ -49,12 +49,12 @@
   height: 315px;
   background-color: #D9EEEF;
   display: flex;
-  margin: 250px 0 0 0;
+  margin: 15% 0 0 0;
   box-shadow: 4px 4px 4px rgb(54 128 149 / 40%);
 }
 
 .menu-wrap__box:not(:last-child) {
-  margin-bottom: -160px;
+  margin-bottom: -100px;
 }
 
 .menu-wrap__box__cir {

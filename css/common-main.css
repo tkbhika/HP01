@@ -57,6 +57,7 @@ width: 20%;
 
 .header-wrap__nav__btn__item a:hover {
   opacity: 0.8;
+  transition: 0.3s;
 }
 
 .header-wrap__nav__list {
@@ -191,11 +192,12 @@ footer {
 
 
 
+
 /* ttl */
 .sect-ttl {
   font-size: 2rem;
   position: relative;
-  margin-bottom: 8%;
+  margin-bottom: 5%;
 }
 
 .sect-ttl::after {

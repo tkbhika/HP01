@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 .first-wrap {
-  padding: 200px 0;
+  padding: 7% 0;
 }
 
 .first-wrap__ttl {
@@ -59,7 +59,7 @@
 }
 
 .guide02-wrap {
-  padding: 200px 0;
+  padding: 7% 0;
 }
 
 .guide02-wrap__ttl {
@@ -73,7 +73,7 @@
 .guide02-wrap__con-top {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
 
 .guide02-wrap__con-bottom {

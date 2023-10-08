@@ -152,6 +152,7 @@
 
 .guide02-wrap__con-top__left a:hover {
   opacity: 0.8;
+  transition: 0.3s;
 }
 
 .guide02-wrap__con-top__right{ 
